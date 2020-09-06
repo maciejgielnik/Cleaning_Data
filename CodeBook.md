@@ -18,12 +18,14 @@ www.smartlab.ws
 DESCRIPTIONS
 ==================================================================
 Identifiers:
+==================================================================
 
 col number          col name
 1                           activity  - a type a activity performed by subject of test
 2                            subject  - ID of a pearson who performed activity
 
 MEASUREMENTS:
+==================================================================
 
 col number          col name
 3                      tbodyaccmeanx
