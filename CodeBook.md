@@ -1,7 +1,6 @@
 This is a CodeBook for tidy_data.txt written by Maciej Gielnik for Coursera Getting and Cleaning Data Course Project
 
 DATA
-==================================================================
 The original data (also known as UCI HAR Dataset) comes from:
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -11,21 +10,20 @@ DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
 
 
 
 DESCRIPTIONS
-==================================================================
+
 Identifiers:
-==================================================================
+
 
 col number          col name
 1                           activity  - a type a activity performed by subject of test
 2                            subject  - ID of a pearson who performed activity
 
 MEASUREMENTS:
-==================================================================
+
 
 col number          col name
 3                      tbodyaccmeanx
@@ -114,12 +112,12 @@ col number          col name
 86            fbodybodyaccjerkmagstd
 87               fbodybodygyromagstd
 88           fbodybodygyrojerkmagstd
-==================================================================
+
 
 
 
 TRANSFORMATIONS
-==================================================================
+
 1. Merging the training and the test sets to create one data set.
 2. Rename column names to remove dashes, parenthesis and change all letters to lowercase.
 3. Extracting only the columns that have word mean or std in name.
